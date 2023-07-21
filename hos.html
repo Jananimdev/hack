@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Bill Receipt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 600px; /* Increase the width as needed */
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      position: relative;
+      height: 400px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .details {
+      margin-bottom: 20px;
+    }
+    .total {
+      text-align: right;
+      font-weight: bold;
+    }
+    .billed-by {
+      text-align: right;
+      font-size: 12px;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Hospital Bill Receipt</h2>
+    </div>
+    <div class="details">
+      <p><strong>Patient Name:</strong> Haritha</p>
+      <p><strong>Bill no: OP23/24842</strong></p>
+      
+    </div>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Rate</th>
+        <th>Total Amount</th>
+      </tr>
+      <tr>
+        <td>Consulting Fee-Normal-Dr.ESWARAN</td>
+        <td>1.00</td>
+        <td>300</td>
+        <td>300</td>
+      </tr>
+      
+      <!-- Add more items as needed -->
+    </table>
+    <div class="total">
+      <p><strong>Total Amount:</strong> 300</p>
+    </div>
+    <div class="billed-by">
+      <p>Billed by: Digital</p>
+    </div>
+  </div>
+</body>
+</html>
